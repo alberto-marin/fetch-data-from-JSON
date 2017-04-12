@@ -47,3 +47,4 @@ const suggestions = document.querySelector('.suggestions');
 
 searchInpunt.addEventListener('change', displayMatches);
 searchInpunt.addEventListener('keyup', displayMatches);
+searchInpunt.addEventListener('ontouchstart', displayMatches);
